@@ -1,0 +1,25 @@
+.custom-bg {
+    background-image: url('kerala-tourism-1536x864.jpg'); 
+    background-size: cover; /* Ensures the image covers the section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    height: 300px; /* Set an explicit height */
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers horizontally */
+    align-items: flex-end; /* Aligns content to the bottom */
+    color: white; /* Makes text visible on the background */
+    text-align: center; /* Centers text within the container */
+  }
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Customize shadow */
+}
+.aboutkerala,.topDestinations,.district,.ContactUS{
+    padding: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+.topDestinations{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+  
